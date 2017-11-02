@@ -48,6 +48,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
+        <label>prueba<label>
         {this.renderTodoCount()}
         <ul className="filters">
           {[ SHOW_ALL, SHOW_ACTIVE, SHOW_COMPLETED ].map(filter =>
